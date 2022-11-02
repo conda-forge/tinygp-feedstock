@@ -1,5 +1,5 @@
 {% set name = "tinygp" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tinygp-{{ version }}.tar.gz
-  sha256: a1ac03d6fbf628ea36a6332037471ff00ec70f418ccada667c4894188205e72c
+  sha256: 15b2426d4ec232b4649286e32dcad7a2680b09e09b0c857dee8eabfa99244e7b
 
 build:
   noarch: python
