@@ -16,14 +16,14 @@ build:
 
 requirements:
   host:
+    - hatchling
+    - hatch-vcs
     - pip
-    - python >=3.6
-    - setuptools >=40.6.0,<60.9.0
-    - setuptools-scm
+    - python >=3.9
   run:
     - jax
     - jaxlib
-    - python >=3.6
+    - python >=3.9
 
 test:
   imports:
