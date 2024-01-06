@@ -1,5 +1,5 @@
 {% set name = "tinygp" %}
-{% set version = "0.2.4" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tinygp-{{ version }}.tar.gz
-  sha256: 7e88a607a5ec83efadadf229903908e9b195273c5345ef60bdd38a809a3c6504
+  sha256: ac5474b20bf6bdd868d48a43b425bc62eb177747a329190347bd4f13af0112c4
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
   run:
     - jax
     - jaxlib
+    - equinox
     - python >=3.9
 
 test:
