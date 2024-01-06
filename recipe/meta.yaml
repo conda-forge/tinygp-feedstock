@@ -23,6 +23,7 @@ requirements:
   run:
     - jax
     - jaxlib
+    - equinox
     - python >=3.9
 
 test:
