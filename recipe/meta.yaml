@@ -1,5 +1,6 @@
 {% set name = "tinygp" %}
 {% set version = "0.3.1" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -22,7 +23,6 @@ requirements:
     - python {{ python_min }}
   run:
     - jax
-    - jaxlib
     - equinox
     - python >={{ python_min }}
 
